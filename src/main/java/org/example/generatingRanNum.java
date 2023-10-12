@@ -17,10 +17,10 @@ public class generatingRanNum {
                 System.out.println("Your guess is correct!!!");
                 break;
             }else if(randomNumber<MyGuess){
-                int num=MyGuess-randomNumber;
+//                int num=MyGuess-randomNumber;
 //                System.out.println("Difference is "+MyGuess+"-"+randomNumber+"="+ num);
                 System.out.println("Your guess is wrong, Try with another guess");
-            }else if(randomNumber>MyGuess){
+            }else {
                 int num=randomNumber-MyGuess;
                 System.out.println("Difference is "+randomNumber+"-"+MyGuess+"="+num);
                 System.out.println("Your guess is wrong, Try with another guess");
