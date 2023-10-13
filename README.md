@@ -10,7 +10,6 @@
                   User-friendly interface for ease of use.
 
 
-  Week 2 :
 
          Task 2 : The Number Guessing Game is an interactive and fun Java program that challenges players to guess a random number within a specified range.
                   It provides feedback on whether the guess is too high, too low, or correct, and keeps track of the number of attempts made. 
