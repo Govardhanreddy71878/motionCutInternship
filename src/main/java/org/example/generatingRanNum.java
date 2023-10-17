@@ -15,15 +15,16 @@ public class generatingRanNum {
             System.out.println("My guess is : "+MyGuess);
             if (randomNumber == MyGuess) {
                 System.out.println("Your guess is correct!!!");
+                System.out.println("No.of attempts you made to guess the number : "+i);
                 break;
             }else if(randomNumber<MyGuess){
 //                int num=MyGuess-randomNumber;
 //                System.out.println("Difference is "+MyGuess+"-"+randomNumber+"="+ num);
-                System.out.println("Your guess is wrong, Try with another guess");
+                System.out.println("Your guess is lower than the actual number, Try with another guess:)")
             }else{
-                int num=randomNumber-MyGuess;
-                System.out.println("Difference is "+randomNumber+"-"+MyGuess+"="+num);
-                System.out.println("Your guess is wrong, Try with another guess");
+                // int num=randomNumber-MyGuess;
+                // System.out.println("Difference is "+randomNumber+"-"+MyGuess+"="+num);
+                System.out.println("Your guess is higher than the actual number, Try with another guess:)");
             }
         }
     }
